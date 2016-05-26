@@ -10,7 +10,7 @@ public class JasyptPasswordEncryptor {
 		
 		Console console = null;
 
-	      	try{
+	      	try {
 	    	  
 	    		console = System.console();
 	         
@@ -40,7 +40,7 @@ public class JasyptPasswordEncryptor {
 
 			    	}
 
-	         }
+	        	}
 	         
 	      } catch(Exception ex) {
 
