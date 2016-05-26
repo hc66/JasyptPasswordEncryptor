@@ -1,3 +1,4 @@
 # JasyptPasswordEncryptor
+# Use following command to encrypt key
 
-Password Encryptor
+java -jar JasyptPasswordEncryptor.jar
