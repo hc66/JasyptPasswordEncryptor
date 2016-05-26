@@ -42,11 +42,11 @@ public class JasyptPasswordEncryptor {
 
 	        	}
 	         
-	      } catch(Exception ex) {
+	      	} catch(Exception ex) {
 
-	         ex.printStackTrace();
+	         	ex.printStackTrace();
 	         
-	      }
+	      	}
 
 	}
 }
