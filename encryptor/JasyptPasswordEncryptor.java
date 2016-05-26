@@ -8,21 +8,21 @@ public class JasyptPasswordEncryptor {
 	
 	public static void main(String[] args) {
 		
-		  Console console = null;
+		Console console = null;
 
-	      try{
+	      	try{
 	    	  
-	    	  console = System.console();
+	    		console = System.console();
 	         
-	         if (console != null) {
+	         	if (console != null) {
 
-	            char[]  pwd = console.readPassword("Enter Password: ");
-	            char[]  pwd2 = console.readPassword("Enter Password Again: ");
+	            		char[]  pwd = console.readPassword("Enter Password: ");
+	            		char[]  pwd2 = console.readPassword("Enter Password Again: ");
 
-	            String pwdString = new String(pwd);
-	            String pwd2String = new String(pwd2);
+	            		String pwdString = new String(pwd);
+	            		String pwd2String = new String(pwd2);
 
-	            if (pwdString.equals(pwd2String)){
+	            		if (pwdString.equals(pwd2String)){
 
 					System.out.println("Congrats! Passwords match.");
 
@@ -32,7 +32,7 @@ public class JasyptPasswordEncryptor {
 					
 					String encrypt_password = encryptor.encrypt(pwdString);
 
-	                System.out.println("Encrpted Password is: "+ encrypt_password);
+	                		System.out.println("Encrpted Password is: "+ encrypt_password);
 
 				}
 
