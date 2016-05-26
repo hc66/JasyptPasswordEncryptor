@@ -22,7 +22,7 @@ public class JasyptPasswordEncryptor {
 	            		String pwdString = new String(pwd);
 	            		String pwd2String = new String(pwd2);
 
-	            		if (pwdString.equals(pwd2String)){
+	            		if (pwdString.equals(pwd2String)) {
 
 					System.out.println("Congrats! Passwords match.");
 
@@ -34,13 +34,11 @@ public class JasyptPasswordEncryptor {
 
 	                		System.out.println("Encrpted Password is: "+ encrypt_password);
 
-				}
-
-				else {
+				} else {
 
 					System.out.println("Passwords Do Not Match. Run the Program Again.");
 
-			    }
+			    	}
 
 	         }
 	         
